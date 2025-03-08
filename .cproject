@@ -732,4 +732,5 @@
 	<storageModule moduleId="com.nxp.s32ds.cle.uct.core">
 		<sdkComponents>platform.driver.clock;platform.driver.rte_mcu;platform.driver.det;platform.driver.osif;platform.driver.siul2_port;platform.driver.rte_port</sdkComponents>
 	</storageModule>
+	<storageModule moduleId="refreshScope"/>
 </cproject>

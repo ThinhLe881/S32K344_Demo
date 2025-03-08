@@ -1,0 +1,9 @@
+/.vscode/
+*.elf
+*.o
+*.map
+*.d
+/Debug_FLASH/
+/Debug_RAM/
+/Release_FLASH/
+/Release_RAM/

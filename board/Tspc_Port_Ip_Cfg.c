@@ -105,7 +105,15 @@ extern "C"{
 BOARD_InitPins:
 - options: {callFromInitBoot: 'true', coreID: M7_0}
 - pin_list:
-  - {pin_num: A13, peripheral: SIUL2, signal: 'gpio, 0', pin_signal: PTA0, direction: INPUT/OUTPUT}
+  - {pin_num: '95', peripheral: LPSPI0, signal: lpspi0_pcs0, pin_signal: PTB0, direction: OUTPUT}
+  - {pin_num: '98', peripheral: LPSPI0, signal: lpspi0_sck, pin_signal: PTC8, direction: OUTPUT}
+  - {pin_num: '94', peripheral: LPSPI0, signal: lpspi0_sout, pin_signal: PTB1, direction: OUTPUT}
+  - {pin_num: '163', peripheral: LPSPI0, signal: lpspi0_sin, pin_signal: PTE0, direction: INPUT}
+  - {pin_num: '116', peripheral: eMIOS_0, signal: emios_0_ch_1_g, pin_signal: PTB13, direction: OUTPUT}
+  - {pin_num: '159', peripheral: SIUL2, signal: 'gpio, 12', pin_signal: PTA12, direction: OUTPUT}
+  - {pin_num: '91', peripheral: SIUL2, signal: 'gpio, 90', pin_signal: PTC26, direction: OUTPUT}
+  - {pin_num: '93', peripheral: SIUL2, signal: 'gpio, 91', pin_signal: PTC27, direction: OUTPUT}
+  - {pin_num: '86', peripheral: SIUL2, signal: 'gpio, 85', pin_signal: PTC21, direction: OUTPUT}
  * BE CAREFUL MODIFYING THIS COMMENT - IT IS YAML SETTINGS FOR TOOLS ***********
  */
 /* clang-format on */
